@@ -38,7 +38,7 @@ for file in os.listdir():
                     ori_txt[idxx+4] = re.sub(">-{0,1}\d*<",'>'+str(ymax)+'<',ori_txt[idxx+4])
                 #print(xmin)
             f.seek(0)
-            f.writelines(ori_txt)
+            f.writelines(ori_txt) 
                 
                 
                 
